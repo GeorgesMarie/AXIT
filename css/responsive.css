@@ -1,0 +1,149 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  /* AXIT MODERN  */
+  .wrap {
+    text-align: center;
+    flex-direction: row;
+  }
+  img[src="img/logo-medium.png"] {
+    width: 20%;
+  }
+   h1 {
+     white-space: normal;
+     font-size: 22px;
+   }
+   .lorem {
+     font-size: 10px;
+   }
+   /* /AXIT MODERN  */
+
+
+  /* SOCIAL MEDIA */
+   .media a i {
+     font-size: 18px;
+   }
+   .social-media p {
+     white-space: normal;
+   }
+   /* /SOCIAL MEDIA */
+
+   /* TABS */
+    img[src="img/image_right_u255.png"],
+    img[src="img/image_right_u256.png"],
+    img[src="img/image_right_u257.png"] {
+      margin: 10px 0px;
+    }
+    .tab-click {
+      justify-content: space-evenly;
+      flex-direction: row !important;
+    }
+   /* /TABS */
+
+   /* SUB LIST SECTION */
+   .title-text, .sub-list-text {
+    	font-size: 12px;
+    	white-space: normal;
+    }
+   /* SUB LIST SECTION */
+
+   /* AWESOME */
+   .awesome-icons {
+     margin: 5px;
+   }
+   .figure-text {
+     white-space: normal;
+   }
+   /* AWESOME */
+
+   /* PRINCING */
+   .lists {
+     margin: 10px;
+   }
+   .list-group-item {
+   	font-size: 12px;
+   }
+   /* PRINCING */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px){
+  /* AXIT MODERN  */
+  .wrap {
+    text-align: center;
+    flex-direction: row;
+  }
+  img[src="img/logo-medium.png"] {
+    width: 20%;
+  }
+   h1 {
+     white-space: normal;
+     font-size: 22px;
+   }
+   .lorem {
+     font-size: 10px;
+   }
+   /* /AXIT MODERN  */
+
+
+   /* SOCIAL MEDIA */
+   .media a i {
+     font-size: 18px;
+   }
+   .social-media p {
+     white-space: normal;
+   }
+   /* /SOCIAL MEDIA */
+
+   /* TABS */
+    img[src="img/image_right_u255.png"],
+    img[src="img/image_right_u256.png"],
+    img[src="img/image_right_u257.png"] {
+      margin: 10px 0px;
+    }
+    .tab-click {
+      justify-content: space-evenly;
+      flex-direction: row !important;
+    }
+   /* /TABS */
+
+   /* SUB LIST SECTION */
+   .title-text, .sub-list-text {
+    	font-size: 12px;
+    	white-space: normal;
+    }
+   /* SUB LIST SECTION */
+
+   /* AWESOME */
+   .figure-text {
+     white-space: normal;
+   }
+   /* AWESOME */
+
+   /* PRINCING */
+   .list-group-item {
+   	font-size: 12px;
+   }
+   /* PRINCING */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* TABS */
+  .tab-click {
+      justify-content: space-evenly;
+      flex-direction: row !important;
+    }
+   /* /TABS */
+
+   /* PRINCING */
+   .list-group-item {
+   	font-size: 12px;
+   }
+   /* PRINCING */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

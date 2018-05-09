@@ -1,0 +1,234 @@
+body {
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif; ;
+}
+/* ----------- AXIT MODERN ----------- */
+.wrap {
+  background-image: url("../img/bg-image.png");
+	background-repeat: no-repeat;
+}
+.wrap {
+	width: 100%;
+	height: 586px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+h1 {
+	white-space: pre-line;
+}
+.lorem {
+	font-weight: 100;
+	white-space: pre-line;
+}
+.hr {
+	width: 10%;
+	border: none;
+	height: 1px;
+	background-color: #fff;
+}
+.btn-outline-danger {
+	width: fit-content;
+	font-weight: 300;
+	border-radius: 0;
+	color: #fff;
+	border: 1px solid #fff;
+}
+form {
+	height: fit-content;
+}
+small {
+	color: #333333;
+	background-color: #f5f5f5;
+}
+small span {
+	color: #ff9b51;
+}
+button[type="submit"] {
+	width: 100%;
+	border-radius: 0;
+	font-size: 12px;
+	border: none;
+	font-weight: 100;
+	background-color: #ff9b51;
+}
+.form input {
+	border: none;
+	border-radius: 0;
+}
+h2 {
+	font-weight: 300;
+}
+/* ----------- AXIT MODERN ----------- */
+
+/* -------------- SOCIAL MEDIA ----------- */
+.social-media h4 {
+	font-size: 14px;
+}
+.social-media p {
+	color: #cccccc;
+	font-weight: 100;
+	font-size: 12px;
+	white-space: pre-line;
+}
+.media a i {
+	color: #ccc;
+	font-size: 30px;
+	vertical-align: middle;
+}
+.link-media {
+	background-color: #fff;
+	-webkit-box-shadow: inset 1px 7px 39px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 1px 7px 39px 0px rgba(0,0,0,0.3);
+	box-shadow: inset 1px 7px 39px 0px rgba(0,0,0,0.3);
+}
+/* -------------- /SOCIAL MEDIA ----------- */
+
+
+
+/* -------------- TABS ----------- */
+.dl-button {
+	border-radius: 0;
+	border: none;
+	background-color: #ff8b38;
+}
+.paragraph {
+	font-size: 12px;
+	font-weight: 100;
+	white-space: pre-line;
+}
+.nav-pills .nav-link.active {
+	background-color: #ff8b38;
+}
+.tab-link {
+	font-size: 12px;
+	background-color: #333333;
+}
+.nav-pills .nav-link {
+    border-radius: 0;
+    width: fit-content;
+}
+.TABS {
+	background-color: #f5f5f5;
+}
+/* -------------- TABS ----------- */
+
+
+
+/* ----------- SUB LIST SECTION ------------- */
+.sub-list-text {
+	white-space: pre-line;
+}
+.title-text, .sub-list-text {
+	font-size: 12px;
+	white-space: pre-line;
+}
+.hr-sub-list {
+	width: 10%;
+	height: 2px !important;
+	border: none;
+	background-color: #ff8b38;
+}
+.standard {
+	background-color: #f5f5f5;
+}
+/* ----------- SUB LIST SECTION ------------- */
+
+
+/* ----------- AWESOME ------------- */
+figcaption {
+	font-size: 18px !important;
+	color: #000 !important;
+}
+.figure-text {
+	font-weight: 100;
+	font-size: 14px;
+	white-space: pre-line;
+}
+.awesome-text {
+	font-weight: 100;
+	font-size: 12px;
+}
+/* ----------- AWESOME ------------- */
+
+
+/* ----------- PRINCING ------------- */
+.lists {
+	background-color: #333333;
+}
+.list-group-item:first-child, .list-group-item:last-child {
+	border-radius: 0;
+}
+.list-group-item {
+	color: #86878b;
+}
+.tarif {
+	font-size: 60px;
+}
+.period {
+	color: #939393 !important;
+	font-style: italic;
+	font-size: 12px;
+}
+.hr-list {
+    height: 3px !important;
+    border: none;
+    background-color: #ff8b38;
+}
+/* ----------- PRINCING ------------- */
+
+/* ----------- CUSTOMERS ------------- */
+.customers-says {
+	font-size: 12px;
+	font-weight: 100;
+	background-color: #e1e1e1;
+	white-space: pre-line;
+}
+/* ----------- /CUSTOMERS ------------- */
+
+
+/* ----------- /STYLISH ------------- */
+.style {
+	width: 100%;
+	height: 293px;
+	background-image: url("../img/city.png");
+	background-repeat: no-repeat;
+}
+.style button {
+	width: fit-content;
+}
+/* ----------- /STYLISh ------------- */
+
+
+
+/* ----------- CONTACT ------------- */
+.contact-button {
+	width: fit-content !important;
+}
+input{
+  border:0;
+  color:rgba(0,0,0,0.5);
+  border-radius:2px;
+  width:100%;
+  height:40px;
+  padding:10px;
+  transition:all 0.5s linear;
+}
+input:focus{
+  outline:0;
+  color:rgba(0,0,0,1);
+  background:rgba(250,220,180,0.6);
+  -webkit-filter: blur(0px) !important;
+}
+
+::-webkit-input-placeholder{
+  color:rgba(0,0,0,0.5);
+}
+
+::-webkit-input-placeholder:before{
+  font-family:FontAwesome;
+  padding-right:10px;
+  content:'\f002';
+  filter: blur(20px);
+}
+/* ----------- /CONTACT ------------- */
