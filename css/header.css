@@ -5,4 +5,7 @@ header {
 	width: 100%;
   background-color: #000;
 }
+.navbar {
+	margin: 0px 100px;
+}
 /* ----------- HEADER --------- */
