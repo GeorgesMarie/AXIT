@@ -111,12 +111,6 @@ h2 {
 .TABS {
 	background-color: #f5f5f5;
 }
-img[src="img/image_right_u255.png"],
-img[src="img/image_right_u256.png"],
-img[src="img/image_right_u257.png"] {
-	top: 0;
-	right: 0;
-}
 /* -------------- TABS ----------- */
 
 
