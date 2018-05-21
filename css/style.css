@@ -6,6 +6,7 @@ body {
 .wrap {
   background-image: url("../img/bg-image.png");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 .wrap {
 	width: 100%;
@@ -194,6 +195,7 @@ figcaption {
 	height: 293px;
 	background-image: url("../img/city.png");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 .style button {
 	width: fit-content;
